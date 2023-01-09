@@ -1,0 +1,33 @@
+
+// Variables
+@import '../admin/variables';
+
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+// Debug
+// .debug{
+//     background-color: rgba(95, 158, 160, 0.808);
+//     border: 1px solid rgb(32, 32, 32);
+// }
+
+
+.box h1{
+    padding-bottom: 30px;
+}
+.comp_form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width:100%;
+    .field{
+        display: inline-block;
+        width: 400px;
+        margin: 0 80px;
+        border-radius: 25px;
+    }
+    .btn_comp{
+        margin-top: 20px;
+    }
+}
